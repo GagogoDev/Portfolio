@@ -1,4 +1,25 @@
+/* Portafolio */
 body {
     background-color: #0A192F !important;
     color: #FFFFFF !important;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #FFFF;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #52D0B7 !important;
+}
+
+.navbar-button-cv {
+    padding: 0.1rem;
 }

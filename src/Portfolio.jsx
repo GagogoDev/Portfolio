@@ -1,7 +1,9 @@
+import { Navbar } from './components/Navbar';
+
 export const Portfolio = () => {
     return (
         <>
-            <h1>Portafolio</h1>
+            <Navbar />
         </>
     );
 };
