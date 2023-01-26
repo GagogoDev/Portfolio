@@ -1,13 +1,19 @@
 import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import { useTranslation } from "react-i18next";
+
 export const Navbar = () => {
+
+    const { t, i18n } = useTranslation();
 
     const onSwitchLanguage = ({ target }) => {
         const checked = target.checked;
 
-        if (checked) { // Español
-        } else { // Inglés
+        if (checked) { // Ingles
+            i18n.changeLanguage('en');
+        } else { // Español
+            i18n.changeLanguage('es');
         }
     }
 
@@ -15,7 +21,7 @@ export const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                    NAVBAR
+                    Navbar
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -24,27 +30,27 @@ export const Navbar = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">
-                                Perfil
+                            {t('Navbar.Perfil')}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Tecnologías
+                            {t('Navbar.tecnologias')}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Educación
+                                {t('Navbar.Educacion')}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Contacto
+                            {t('Navbar.Contacto')}
                             </a>
                         </li>
                         <li className="nav-item d-flex align-items-center">
                             <button className="nav-link btn btn-outline-primary navbar-button-cv" href="#">
-                                Descargar Curriculum
+                            {t('Navbar.Descargar Curriculum')}
                             </button>
                         </li>
                         <li className="nav-item">
