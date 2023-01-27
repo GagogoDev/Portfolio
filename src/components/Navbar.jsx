@@ -1,6 +1,3 @@
-import { faLanguage } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { useTranslation } from "react-i18next";
 
 export const Navbar = () => {
@@ -30,12 +27,12 @@ export const Navbar = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">
-                            {t('Navbar.Perfil')}
+                                {t('Navbar.Perfil')}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                            {t('Navbar.tecnologias')}
+                                {t('Navbar.Tecnologias')}
                             </a>
                         </li>
                         <li className="nav-item">
@@ -45,23 +42,23 @@ export const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                            {t('Navbar.Contacto')}
+                                {t('Navbar.Contacto')}
                             </a>
                         </li>
                         <li className="nav-item d-flex align-items-center">
                             <button className="nav-link btn btn-outline-primary navbar-button-cv" href="#">
-                            {t('Navbar.Descargar Curriculum')}
+                                {t('Navbar.Descargar Curriculum')}
                             </button>
                         </li>
                         <li className="nav-item">
                             <div className="nav-link">
                                 <div className="d-flex align-items-center">
-                                    <label><FontAwesomeIcon icon={faLanguage}/></label>
+                                    <label>ES</label>
                                     <div className="form-check form-switch d-flex align-items-center justify-content-center">
                                         <input className="form-check-input" type="checkbox" id="switchLanguage" onChange={onSwitchLanguage}/>
                                         <label className="form-check-label" htmlFor="switchLanguage"></label>
                                     </div>
-                                    <label><FontAwesomeIcon icon={faLanguage}/></label>
+                                    <label>EN</label>
                                 </div>
                             </div>
                         </li>

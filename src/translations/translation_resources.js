@@ -2,11 +2,11 @@ export const translation_resources = {
     en: {
         translation: {
             'Navbar': {
-                'Perfil': 'Perfil EN',
-                'Tecnologias': 'Perfil EN',
-                'Educacion': 'Perfil EN',
-                'Contacto': 'Perfil EN',
-                'Descargar Curriculum': 'Perfil EN',
+                'Perfil': 'Per EN',
+                'Tecnologias': 'Tec EN',
+                'Educacion': 'Ed EN',
+                'Contacto': 'Cont EN',
+                'Descargar Curriculum': 'CV EN',
             },
         },
     },
