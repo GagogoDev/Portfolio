@@ -6,7 +6,7 @@ export const Perfil = () => {
                     <div className="row d-flex justify-content-center align-items-center text-center">
                         <div className="col-12 col-lg-4 text-center text-lg-end">
                             <img
-                                src="assets/images/user-image-test.png"
+                                src="public/images/user-image-test.png"
                                 alt="Foto de perfil"
                                 id="foto-perfil"
                             />
