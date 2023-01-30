@@ -2,7 +2,9 @@ export const Perfil = () => {
     return (
         <section>
             <div className="row d-flex justify-content-center align-items-center" id="section-perfil">
-                <div className="col-12">
+                <div class="bg-image"></div>
+
+                <div className="col-12 pt-5 pb-5 box-perfil">
                     <div className="row d-flex justify-content-center align-items-center text-center">
                         <img
                             src="public/images/user-image-test.png"
