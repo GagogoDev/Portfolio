@@ -9,6 +9,8 @@ body {
 
     font-family: 'Charis SIL', serif;
     font-family: 'Oswald', sans-serif;
+
+    cursor: default;
 }
 
 /* Navbar */
@@ -85,4 +87,20 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 1rem;
+}
+
+/* Teconologías */
+#sectionTecnologias {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.carousel-inner {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    background-color: #0a192f;
+    color: white !important;
 }
