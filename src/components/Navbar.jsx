@@ -6,7 +6,7 @@ export const Navbar = () => {
     const { t, i18n } = useTranslation();
 
     const onSwitchLanguage = () => {
-        setLanguage(!true);
+        setLanguage(!language);
 
         if (language) {
             // Ingles
