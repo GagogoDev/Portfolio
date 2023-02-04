@@ -18,6 +18,7 @@ body {
     position: fixed;
     width: 100%;
     background-color: hsla(216, 65%, 11%, 0.95);
+    z-index: 2;
 }
 
 .navbar-collapse {
@@ -95,12 +96,21 @@ body {
     margin-bottom: 10rem;
 }
 
-.carousel-inner {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+.h1-tecnologias {
+    font-size: 3rem;
 }
 
 .swiper-button-prev, .swiper-button-next {
     background-color: #0a192f;
     color: white !important;
+}
+
+.swiper-slide-img {
+    margin: 0 auto 1rem auto;
+    display: block;
+    width: 8rem;
+}
+
+.swiper-slide-p {
+    font-size: 2rem;
 }
