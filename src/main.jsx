@@ -8,11 +8,6 @@ import './styles.css';
 import { i18n } from './translations/i18next_config.js';
 export default i18n;
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <Portfolio />
