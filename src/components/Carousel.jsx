@@ -9,11 +9,11 @@ const handleDragStart = (e) => e.preventDefault();
 const items = carouselItems.map(({ name, srcImage, color }) => (
     <div onDragStart={handleDragStart} role="presentation">
         <img
-            className="d-block w-100 carousel-slide-img"
+            className="d-block w-100 carousel-item-img"
             src={srcImage}
             alt={name}
         />
-        <p className="text-center carousel-slide-p" style={{ color }}>
+        <p className="text-center carousel-item-p" style={{ color }}>
             {name}
         </p>
     </div>

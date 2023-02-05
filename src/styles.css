@@ -127,21 +127,21 @@ body {
 }
 
 /* Teconologías */
-#sectionTecnologias {
+#section-technologies {
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
 
-.h1-tecnologias {
+.h1-technologies {
     font-size: 3rem;
 }
 
-.carousel-slide-img {
+.carousel-item-img {
     margin: 0 auto 1rem auto;
     width: 8rem !important;
 }
 
-.carousel-slide-p {
+.carousel-item-p {
     font-size: 2rem;
 }
 
