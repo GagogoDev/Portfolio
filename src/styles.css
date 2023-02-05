@@ -193,6 +193,7 @@ body {
 .box-education {
     border: 0.1rem solid #52d0b7;
     width: 100%;
+    border-radius: 10px;
 }
 
 .button-education {
