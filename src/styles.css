@@ -48,15 +48,6 @@ body {
     color: #52d0b7 !important;
 }
 
-.navbar-button-cv {
-    padding: 0.1rem;
-}
-
-.navbar-button-cv:hover,
-.navbar-button-cv:active {
-    background-color: #0a192f !important;
-}
-
 /* Perfil */
 #section-profile {
     padding: 10rem 0rem 0rem 0rem;
@@ -124,6 +115,28 @@ body {
     .description-profile {
         font-size: 1.5rem;
     }
+}
+
+.profile-button {
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 550px) {
+    .profile-button {
+        font-size: 1.5rem !important;
+    }
+}
+
+.profile-button:hover,
+.profile-button:active {
+    background-color: #0a192f !important;
+    color: #52d0b7 !important;
+}
+
+.profile-button:hover {
+    transform: scale(110%);
 }
 
 /* Teconologías */

@@ -1,21 +1,7 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export const Navbar = () => {
-    const [ language, setLanguage ] = useState( true );
-    const { t, i18n } = useTranslation();
-
-    const onSwitchLanguage = () => {
-        setLanguage( !language );
-
-        if ( language ) {
-            // Ingles
-            i18n.changeLanguage('en');
-        } else {
-            // Español
-            i18n.changeLanguage('es');
-        }
-    };
+    const { t } = useTranslation();
 
     return (
         <nav className="navbar navbar-expand-lg navbar-dark nav">
@@ -46,16 +32,6 @@ export const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="#">
                                 {t('Navbar.Contact')}
-                            </a>
-                        </li>
-                        <li className="nav-item d-flex align-items-center">
-                            <button className="nav-link btn btn-outline-primary navbar-button-cv" href="#">
-                                {t('Navbar.Download CV')}
-                            </button>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" onClick={onSwitchLanguage}>
-                                {t('Navbar.Language')}
                             </a>
                         </li>
                     </ul>
