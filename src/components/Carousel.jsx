@@ -21,7 +21,7 @@ const items = carouselItems.map(({ name, srcImage, color }) => (
 
 const responsive = {
     0: { items: 1 },
-    550: { items: 2 },
+    400: { items: 2 },
     750: { items: 3 },
     1000: { items: 4 },
     1500: { items: 5 },
