@@ -166,3 +166,9 @@ body {
 .alice-carousel__next-btn {
     padding: 0rem 0rem 0rem 0rem !important;
 }
+
+/* Experiencia */
+#sectionExperiencia {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
