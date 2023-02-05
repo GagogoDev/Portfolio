@@ -2,24 +2,24 @@ export const translation_resources = {
     en: {
         translation: {
             'Navbar': {
-                'Perfil': 'Per EN',
-                'Tecnologias': 'Tec EN',
-                'Educacion': 'Ed EN',
-                'Contacto': 'Cont EN',
-                'Descargar Curriculum': 'Download CV',
-                'Idioma': 'Spanish',
+                'Profile': 'Profile',
+                'Technologies': 'Technologies',
+                'Education': 'Education',
+                'Contact': 'Contact',
+                'Download CV': 'Download CV',
+                'Language': 'Spanish',
             },
         },
     },
     es: {
         translation: {
             'Navbar': {
-                'Perfil': 'Perfil',
-                'Tecnologias': 'Tecnologías',
-                'Educacion': 'Educación',
-                'Contacto': 'Contacto',
-                'Descargar Curriculum': 'Descargar CV',
-                'Idioma': 'Inglés',
+                'Profile': 'Perfil',
+                'Technologies': 'Tecnologías',
+                'Education': 'Educación',
+                'Contact': 'Contacto',
+                'Download CV': 'Descargar CV',
+                'Language': 'Inglés',
             },
         },
     },
