@@ -1,11 +1,11 @@
-import { Educacion, Navbar, Perfil, Tecnologias } from './components/';
+import { Educacion, Navbar, Profile, Tecnologias } from './components/';
 
 export const Portfolio = () => {
     return (
         <>
             <Navbar />
             <div className="container-fluid">
-                <Perfil />
+                <Profile />
                 <Tecnologias />
                 <Educacion />
             </div>
