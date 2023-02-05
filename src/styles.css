@@ -168,7 +168,11 @@ body {
 }
 
 /* Experiencia */
-#sectionExperiencia {
+#section-education {
     margin-top: 10rem;
     margin-bottom: 10rem;
+}
+
+.h1-education {
+    font-size: 3rem;
 }

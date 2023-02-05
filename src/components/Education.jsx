@@ -1,8 +1,8 @@
-export const Educacion = () => {
+export const Education = () => {
     return (
         <section>
-            <div className="row" id="sectionExperiencia">
-                <h1 className="h1-tecnologias text-center text-primary">
+            <div className="row" id="section-education">
+                <h1 className="h1-education text-center text-primary">
                     Educación
                 </h1>
                 <div className="col-12 d-flex justify-content-center">
