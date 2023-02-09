@@ -7,17 +7,19 @@ export const Education = () => {
                 </h1>
                 <div className="col-12 col-lg-10 d-flex justify-content-center mt-5">
                     <div className="row box-education d-flex justify-content-center p-0">
-                        <div className="col-12 col-md-4 p-1">
-                            <div className="row">
-                                <div className="col-6 col-md-12">
-                                    <button className="button-education w-100 active">
-                                        Títulos
-                                    </button>
-                                </div>
-                                <div className="col-6 col-md-12">
-                                    <button className="button-education w-100">
-                                        Cursos
-                                    </button>
+                        <div className="col-12 col-md-4 p-0">
+                            <div className="border-education">
+                                <div className="row p-1">
+                                    <div className="col-6 col-md-12">
+                                        <button className="button-education button-education-first w-100 active">
+                                            Títulos
+                                        </button>
+                                    </div>
+                                    <div className="col-6 col-md-12">
+                                        <button className="button-education button-education-last w-100">
+                                            Cursos
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

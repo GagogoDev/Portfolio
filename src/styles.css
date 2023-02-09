@@ -121,6 +121,7 @@ body {
     padding: 0.5rem;
     margin: 0.5rem 0.5rem 0rem 0.5rem;
     font-size: 1rem;
+    color: white;
 }
 
 @media screen and (min-width: 550px) {
@@ -136,7 +137,7 @@ body {
 }
 
 .profile-button:hover {
-    transform: scale(110%);
+    transform: scale(101%);
 }
 
 /* Teconologías */
@@ -226,7 +227,7 @@ body {
     transform: translateX(0);
 }
 
-.button-education.active {
+.button-education-first.active {
     background: rgb(82, 208, 183);
     background: linear-gradient(
         90deg,
@@ -235,8 +236,73 @@ body {
     );
 }
 
+.button-education-last::before {
+    background-color: #52d0b7;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateX(100%);
+    transition: all 0.3s;
+    width: 100%;
+    z-index: -1;
+}
+
+.button-education-last:hover::before {
+    transform: translateX(0);
+}
+
+.button-education-last.active {
+    background: rgb(10, 25, 47);
+    background: linear-gradient(
+        90deg,
+        rgba(10, 25, 47, 1) 0%,
+        rgba(82, 208, 183, 1) 100%
+    );
+}
+
+@media screen and (min-width: 768px) {
+    .button-education::before {
+        background-color: #52d0b7;
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .button-education:hover::before {
+        transform: translateX(0);
+    }
+
+    .button-education.active {
+        background: rgb(82, 208, 183);
+        background: linear-gradient(
+            90deg,
+            rgba(82, 208, 183, 1) 0%,
+            rgba(10, 25, 47, 1) 100%
+        );
+    }
+}
+
+.border-education {
+    border-bottom: 0.1rem solid #52d0b7;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .border-education {
+        border-bottom: none !important;
+        border-right: 0.1rem solid #52d0b7;
+    }
+}
+
 .card-education {
-    border-radius: 1px;
     border-radius: 20px;
     border: 0.1rem solid #52d0b7;
     max-width: 20rem;
