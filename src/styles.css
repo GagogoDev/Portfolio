@@ -13,6 +13,15 @@ body {
     cursor: default;
 }
 
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #52d0b7;
+    border-radius: 5px;
+}
+
 /* Navbar */
 .nav {
     position: fixed;
@@ -300,6 +309,20 @@ body {
         border-bottom: none !important;
         border-right: 0.1rem solid #52d0b7;
     }
+}
+
+.parent-cards {
+    max-height: 25rem;
+    overflow-y: auto;
+}
+
+.parent-cards::-webkit-scrollbar {
+    width: 7px;
+}
+
+.parent-cards::-webkit-scrollbar-thumb {
+    background-color: #52d0b7;
+    border-radius: 5px;
 }
 
 .card-education {
