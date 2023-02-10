@@ -328,8 +328,21 @@ body::-webkit-scrollbar-thumb {
 .card-education {
     border-radius: 20px;
     border: 0.1rem solid #52d0b7;
-    max-width: 20rem;
+    height: 11rem;
+    width: 20rem;
     padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 30px 7px rgba(255, 255, 255, 0.05),
+        -5px -5px 30px 7px rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-education:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 5px 30px 15px rgba(255, 255, 255, 0.1),
+        -5px -5px 30px 15px rgba(255, 255, 255, 0.1);
 }
 
 .title-card-education {
@@ -339,6 +352,7 @@ body::-webkit-scrollbar-thumb {
 .subtitle-card-education {
     font-size: 1rem;
     font-weight: 600;
+    margin-top: auto !important;
 }
 
 .date-card-education {

@@ -1,4 +1,4 @@
-export const titlesEducation = [
+export const titles = [
     {
         id: 1,
         title: 'Técnico Universitario en Informática',

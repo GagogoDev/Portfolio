@@ -1,5 +1,5 @@
 // import data SwipperSlide
-import { carouselItems } from '../data/carouselItems';
+import { carouselItems } from '../data/';
 
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
