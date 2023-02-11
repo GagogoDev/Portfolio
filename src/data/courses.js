@@ -13,6 +13,6 @@ const desorderCourses = [
     },
 ];
 
-export const courses = desorderCourses.sort(function(a, b) {
+export const courses = desorderCourses.sort(function (a, b) {
     return b.id - a.id;
 });
