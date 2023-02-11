@@ -5,7 +5,6 @@
     --dark: #0a192f;
     --aqua: #00FFFF;
     --white: #fff;
-    --aqua-rbg: 
 }
 
 body {
@@ -48,8 +47,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbar-brand {
+    padding-left: 0rem;
     font-size: 2.5rem;
     font-weight: 700;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand {
+        padding-left: 1rem;
+    }
 }
 
 .nav-link {
