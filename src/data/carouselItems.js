@@ -29,4 +29,9 @@ export const carouselItems = [
         srcImage: 'public/icons/jquery-icon.png',
         color: '#0868AC',
     },
+    {
+        name: 'Github',
+        srcImage: 'public/icons/github-icon.png',
+        color: '#ffff',
+    },
 ];

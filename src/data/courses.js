@@ -1,4 +1,4 @@
-export const courses = [
+const desorderCourses = [
     {
         id: 1,
         title: 'SQL - Curso completo de Bases de Datos - de 0 a Avanzado',
@@ -12,3 +12,7 @@ export const courses = [
         date: '2022-09-08',
     },
 ];
+
+export const courses = desorderCourses.sort(function(a, b) {
+    return b.id - a.id;
+});

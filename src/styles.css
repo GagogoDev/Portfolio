@@ -182,7 +182,7 @@ body::-webkit-scrollbar-thumb {
 .alice-carousel__prev-btn-item:hover,
 .alice-carousel__next-btn-item:hover {
     color: #52d0b7;
-    transform: scale(90%);
+    transform: scale(105%);
 }
 
 .alice-carousel__prev-btn,
