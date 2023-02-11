@@ -4,6 +4,7 @@ export const translation_resources = {
             'Navbar': {
                 'Profile': 'Profile',
                 'Technologies': 'Technologies',
+                'Experience': 'Experience',
                 'Education': 'Education',
                 'Contact': 'Contact',
                 'Download CV': 'Download CV',
@@ -16,6 +17,7 @@ export const translation_resources = {
             'Navbar': {
                 'Profile': 'Perfil',
                 'Technologies': 'Tecnologías',
+                'Experience': 'Experiencia',
                 'Education': 'Educación',
                 'Contact': 'Contacto',
                 'Download CV': 'Descargar CV',

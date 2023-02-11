@@ -190,6 +190,16 @@ body::-webkit-scrollbar-thumb {
     padding: 0rem 0rem 0rem 0rem !important;
 }
 
+/* Experiencia */
+#section-experience {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.h1-experience {
+    font-size: 3rem;
+}
+
 /* Educación */
 #section-education {
     margin-top: 10rem;

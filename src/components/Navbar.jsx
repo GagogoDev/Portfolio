@@ -26,6 +26,11 @@ export const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
+                                {t('Navbar.Experience')}
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">
                                 {t('Navbar.Education')}
                             </a>
                         </li>
