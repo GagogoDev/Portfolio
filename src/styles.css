@@ -28,6 +28,15 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
 }
 
+.div-section {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.h1-section {
+    font-size: 3rem;
+}
+
 /* Navbar */
 .nav {
     position: fixed;
@@ -163,15 +172,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Teconologías */
-#section-technologies {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
-
-.h1-technologies {
-    font-size: 3rem;
-}
-
 .carousel-item-img {
     margin: 0 auto 1rem auto;
     width: 8rem !important;
