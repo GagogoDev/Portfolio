@@ -1,37 +1,37 @@
 export const technologies = [
     {
         name: 'React',
-        srcImage: '/icons/react-icon.png',
+        srcImage: '/images/react.png',
         color: '#00D8FF',
     },
     {
         name: 'Bootstrap',
-        srcImage: '/icons/bootstrap-icon.png',
+        srcImage: '/images/bootstrap.png',
         color: '#5E3B7F',
     },
     {
         name: 'HTML5',
-        srcImage: '/icons/html5-icon.png',
+        srcImage: '/images/html5.png',
         color: '#DD512A',
     },
     {
         name: 'CSS',
-        srcImage: '/icons/css3-icon.png',
+        srcImage: '/images/css3.png',
         color: '#2196F3',
     },
     {
         name: 'CodeIgniter',
-        srcImage: '/icons/codeigniter-icon.png',
+        srcImage: '/images/codeigniter.png',
         color: '#DD512A',
     },
     {
         name: 'JQuery',
-        srcImage: '/icons/jquery-icon.png',
+        srcImage: '/images/jquery.png',
         color: '#0868AC',
     },
     {
         name: 'Github',
-        srcImage: '/icons/github-icon.png',
+        srcImage: '/images/github.png',
         color: '#ffff',
     },
 ];
