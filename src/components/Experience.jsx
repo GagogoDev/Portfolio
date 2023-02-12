@@ -1,16 +1,22 @@
-import { TimeExperience } from "./TimeExperience";
+import { experiences } from '../data/';
 
 export const Experience = () => {
     return (
-        <section>
-            <div className="row d-flex justify-content-center" id="section-experience" >
-                <h1 className="h1-experience text-center text-primary">
-                    Experiencia
-                </h1>
-                <div className="col-12 col-lg-10 d-flex justify-content-center mt-5">
-                    <TimeExperience/>
-                </div>
-            </div>
-        </section>
+        <ul className="timeline">
+            {experiences.map(({ id, direction, title, date, description }) => (
+                <li key={id}>
+                    <div className={`direction-${direction}`}>
+                        <div className="flag-wrapper">
+                            <span className="hexa"></span>
+                            <span className="flag">{title}</span>
+                            <span className="time-wrapper">
+                                <span className="time">{date}</span>
+                            </span>
+                        </div>
+                        <div className="desc">{description}</div>
+                    </div>
+                </li>
+            ))}
+        </ul>
     );
 };

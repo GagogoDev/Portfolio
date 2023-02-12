@@ -204,15 +204,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Experiencia */
-#section-experience {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
-
-.h1-experience {
-    font-size: 3rem;
-}
-
 header h1 {
     text-align: center;
     font-weight: bold;

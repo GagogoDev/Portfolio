@@ -4,5 +4,4 @@ export * from './Technologies';
 export * from './Education';
 export * from './Experience';
 export * from './CardEducation';
-export * from './TimeExperience';
 export * from './Section';

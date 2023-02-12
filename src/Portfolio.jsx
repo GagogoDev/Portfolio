@@ -9,7 +9,9 @@ export const Portfolio = () => {
                 <Section title={'Tecnologías'}>
                     <Technologies />
                 </Section>
-                <Experience />
+                <Section title={'Experiencia'}>
+                    <Experience />
+                </Section>
                 <Education />
             </div>
         </>
