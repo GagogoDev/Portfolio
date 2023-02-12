@@ -575,7 +575,7 @@ header p {
     left: 0;
     position: absolute;
     top: 0;
-    transform: translateX(-100%);
+    transform: translateX(-101%);
     transition: all 0.3s;
     width: 100%;
     z-index: -1;
@@ -618,43 +618,9 @@ header p {
     );
 }
 
-@media screen and (min-width: 768px) {
-    .button-education::before {
-        background-color: var(--aqua);
-        content: '';
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        transform: translateX(-100%);
-        transition: all 0.3s;
-        width: 100%;
-        z-index: -1;
-    }
-
-    .button-education:hover::before {
-        transform: translateX(0);
-    }
-
-    .button-education.active {
-        background: linear-gradient(
-            90deg,
-            rgba(0, 255, 255, 1) 0%,
-            rgba(10, 25, 47, 1) 100%
-        );
-    }
-}
-
 .border-education {
     border-bottom: 0.1rem solid var(--aqua);
     height: 100%;
-}
-
-@media screen and (min-width: 768px) {
-    .border-education {
-        border-bottom: none !important;
-        border-right: 0.1rem solid var(--aqua);
-    }
 }
 
 .parent-cards {
