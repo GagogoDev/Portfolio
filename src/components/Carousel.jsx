@@ -1,12 +1,12 @@
 // import data SwipperSlide
-import { carouselItems } from '../data/';
+import { Carotechnologiesusel } from '../data/';
 
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 const handleDragStart = (e) => e.preventDefault();
 
-const items = carouselItems.map(({ name, srcImage, color }) => (
+const items = Carotechnologiesusel.map(({ name, srcImage, color }) => (
     <div onDragStart={handleDragStart} role="presentation">
         <img
             className="d-block w-100 carousel-item-img"
