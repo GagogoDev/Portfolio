@@ -12,7 +12,9 @@ export const Portfolio = () => {
                 <Section title={'Experiencia'}>
                     <Experience />
                 </Section>
-                <Education />
+                <Section title={'Educación'}>
+                    <Education />
+                </Section>
             </div>
         </>
     );

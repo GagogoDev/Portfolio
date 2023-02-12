@@ -549,15 +549,6 @@ header p {
 }
 
 /* Educación */
-#section-education {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
-
-.h1-education {
-    font-size: 3rem;
-}
-
 .box-education {
     border: 0.1rem solid var(--aqua);
     width: 100%;
