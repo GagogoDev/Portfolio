@@ -321,7 +321,6 @@ header p {
         rgb(213, 213, 213) 92%,
         rgba(213, 213, 213, 0) 100%
     );
-    z-index: 5;
 }
 
 .timeline li {
@@ -333,7 +332,6 @@ header p {
     height: 10px;
     position: absolute;
     background: var(--aqua);
-    z-index: 5;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -374,7 +372,6 @@ header p {
     background: var(--aqua);
     font-weight: 600;
     font-size: 2rem !important;
-    z-index: 15;
     padding: 6px 10px;
     text-align: left;
     border-radius: 5px;
@@ -415,9 +412,7 @@ header p {
     display: block;
     position: relative;
     margin: 4px 0 0 0;
-    z-index: 14;
     line-height: 1em;
-    vertical-align: middle;
     color: #fff;
 }
 
@@ -441,7 +436,6 @@ header p {
     margin: 1em 0 0 0;
     padding: 1em;
     background: var(--dark);
-    z-index: 15;
 }
 
 .direction-l .desc,
@@ -449,7 +443,6 @@ header p {
     position: relative;
     margin: 1em 1em 0 1em;
     padding: 1em;
-    z-index: 15;
 }
 
 @media (min-width: 992px) {
@@ -590,7 +583,6 @@ header p {
     overflow: hidden;
     padding: 0;
     position: relative;
-    z-index: 1;
 }
 
 .button-education::before {
@@ -603,7 +595,6 @@ header p {
     transform: translateX(-100%);
     transition: all 0.3s;
     width: 100%;
-    z-index: -1;
 }
 
 .button-education:hover::before {
@@ -628,7 +619,6 @@ header p {
     transform: translateX(100%);
     transition: all 0.3s;
     width: 100%;
-    z-index: -1;
 }
 
 .button-education-last:hover::before {
@@ -654,7 +644,6 @@ header p {
         transform: translateX(-100%);
         transition: all 0.3s;
         width: 100%;
-        z-index: -1;
     }
 
     .button-education:hover::before {
