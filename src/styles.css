@@ -565,6 +565,7 @@ header p {
     overflow: hidden;
     padding: 0;
     position: relative;
+    z-index: 1;
 }
 
 .button-education::before {
@@ -577,6 +578,7 @@ header p {
     transform: translateX(-100%);
     transition: all 0.3s;
     width: 100%;
+    z-index: -1;
 }
 
 .button-education:hover::before {
@@ -601,6 +603,7 @@ header p {
     transform: translateX(100%);
     transition: all 0.3s;
     width: 100%;
+    z-index: -1;
 }
 
 .button-education-last:hover::before {
@@ -626,6 +629,7 @@ header p {
         transform: translateX(-100%);
         transition: all 0.3s;
         width: 100%;
+        z-index: -1;
     }
 
     .button-education:hover::before {
