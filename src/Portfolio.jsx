@@ -1,4 +1,4 @@
-import { Education, Experience, Navbar, Profile, Section, Technologies } from './components/';
+import { Contact, Education, Experience, Navbar, Profile, Section, Technologies } from './components/';
 
 export const Portfolio = () => {
     return (
@@ -14,6 +14,9 @@ export const Portfolio = () => {
                 </Section>
                 <Section title={'Educación'}>
                     <Education />
+                </Section>
+                <Section title={'Contacto'}>
+                    <Contact />
                 </Section>
             </div>
         </>
