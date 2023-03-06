@@ -6,18 +6,18 @@ export const Contact = () => {
             <div className="col-12 col-lg-6 offset-lg-1">
                 <form className="border border-primary rounded p-3">
                     <div className="form-group mb-2">
-                        <label htmlFor="name">Nombre</label>
+                        <label className="mb-1" htmlFor="name">Nombre</label>
                         <input type="text" className="form-control" id="name" placeholder="Ingrese nombre" />
                     </div>
                     <div className="form-group mb-2">
-                        <label htmlFor="email">Email</label>
+                        <label className="mb-1" htmlFor="email">Email</label>
                         <input type="email" className="form-control" id="email" placeholder="Ingrese email" />
                     </div>
                     <div className="form-group mb-2">
-                        <label htmlFor="message">Mensaje</label><br />
+                        <label className="mb-1" htmlFor="message">Mensaje</label><br />
                         <textarea name="message" id="message" className='form-control w-100' rows="5" placeholder="Ingrese mensaje"></textarea>
                     </div>
-                    <button type="submit" className="btn btn-outline-primary d-flex text-light contact-button">
+                    <button type="submit" className="btn btn-outline-primary d-flex text-light mt-3 contact-button">
                         Enviar
                     </button>
                 </form>
