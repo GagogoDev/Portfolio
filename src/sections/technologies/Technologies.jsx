@@ -1,5 +1,5 @@
 // import data SwipperSlide
-import { technologies } from '../data/';
+import { technologies } from '../../data';
 
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { courses, titles } from "../data/";
-import { CardEducation } from "./";
+import { courses, titles } from "../../data";
+import { CardEducation } from "..";
 
 export const Education = () => {
     const [tab, setTab] = useState(true);

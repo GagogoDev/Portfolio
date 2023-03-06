@@ -1,4 +1,4 @@
-import { Contact, Education, Experience, Navbar, Profile, Section, Technologies } from './components/';
+import { Contact, Education, Experience, Navbar, Profile, Section, Technologies } from './sections';
 
 export const Portfolio = () => {
     return (
