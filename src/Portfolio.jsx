@@ -6,16 +6,16 @@ export const Portfolio = () => {
             <Navbar />
             <div className="container-fluid">
                 <Profile />
-                <Section title={'Tecnologías'}>
+                <Section title={'Tecnologías'} id="technologies">
                     <Technologies />
                 </Section>
-                <Section title={'Experiencia'}>
+                <Section title={'Experiencia'} id="experience">
                     <Experience />
                 </Section>
-                <Section title={'Educación'}>
+                <Section title={'Educación'} id="education">
                     <Education />
                 </Section>
-                <Section title={'Contacto'}>
+                <Section title={'Contacto'} id="contact">
                     <Contact />
                 </Section>
             </div>

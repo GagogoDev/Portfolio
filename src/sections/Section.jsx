@@ -1,6 +1,6 @@
-export const Section = ( {children, title} ) => {
+export const Section = ( {children, title, id} ) => {
     return (
-        <section>
+        <section id={ `section-${id}` }>
             <div className="row d-flex justify-content-center div-section">
                 <h1 className="h1-section text-center text-primary">
                     { title }
