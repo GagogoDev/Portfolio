@@ -732,3 +732,9 @@ header p {
 #github svg{
     fill: #000000;
 }
+
+.tooltip {
+    border-radius: 15px;
+    font-family: 'Charis SIL', serif;
+    font-family: 'Oswald', sans-serif;
+}
