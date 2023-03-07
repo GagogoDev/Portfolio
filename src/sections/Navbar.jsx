@@ -7,7 +7,7 @@ export const Navbar = () => {
         let element = document.getElementById(`section-${href}`);
 
         if (element) {
-            const headerOffset = 100;
+            const headerOffset = 200;
             const elementPosition = element.getBoundingClientRect().top;
             const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
     
