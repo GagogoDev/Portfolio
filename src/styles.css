@@ -59,7 +59,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-.navbar-brand {
+.navbar-brand, .navbar-brand:hover {
     padding-left: 0rem;
     font-size: 2.5rem;
     font-weight: 700;
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 992px) {
-    .navbar-brand {
+    .navbar-brand, .navbar-brand:hover {
         padding-left: 1rem;
     }
 }
