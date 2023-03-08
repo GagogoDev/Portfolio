@@ -1,58 +1,44 @@
+import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 
 export const Navbar = () => {
     const { t } = useTranslation();
 
-    const onClickLink = ( href ) => {
-        let element = document.getElementById(`section-${href}`);
-
-        if (element) {
-            const headerOffset = 200;
-            const elementPosition = element.getBoundingClientRect().top;
-            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-    
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: "smooth"
-           });
-        }
-    }
-
     return (
         <nav className="navbar navbar-expand-lg navbar-dark nav">
             <div className="container-fluid">
-                <a className="navbar-brand" onClick={ () => onClickLink('profile') } >
+                <Link className="navbar-brand" to="section-profile" smooth={true} offset={0} duration={100} >
                     {'<GQ/>'}
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPortfolio" aria-controls="navbarPortfolio" aria-expanded="false" aria-label="Toggle navigation" >
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarPortfolio" >
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
                         <li className="nav-item">
-                            <a className="nav-link" onClick={ () => onClickLink('profile') } >
+                            <Link className="nav-link" to="section-profile" smooth={true} offset={0} duration={100} >
                                 {t('Navbar.Profile')}
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" onClick={ () => onClickLink('technologies') } >
+                            <Link className="nav-link" to="section-technologies" smooth={true} offset={-200} duration={100} >
                                 {t('Navbar.Technologies')}
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" onClick={ () => onClickLink('experience') } >
+                            <Link className="nav-link" to="section-experience" smooth={true} offset={-200} duration={100} >
                                 {t('Navbar.Experience')}
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" onClick={ () => onClickLink('education') } >
+                            <Link className="nav-link" to="section-education" smooth={true} offset={-200} duration={100} >
                                 {t('Navbar.Education')}
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" onClick={ () => onClickLink('contact') } >
+                            <Link className="nav-link" to="section-contact" smooth={true} offset={0} duration={100} >
                                 {t('Navbar.Contact')}
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
