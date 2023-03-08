@@ -59,7 +59,8 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-.navbar-brand, .navbar-brand:hover {
+.navbar-brand,
+.navbar-brand:hover {
     padding-left: 0rem;
     font-size: 2.5rem;
     font-weight: 700;
@@ -68,7 +69,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 992px) {
-    .navbar-brand, .navbar-brand:hover {
+    .navbar-brand,
+    .navbar-brand:hover {
         padding-left: 1rem;
     }
 }
@@ -720,18 +722,18 @@ header p {
 }
 
 #whatsapp svg {
-    fill: #1BD741;
+    fill: #1bd741;
 }
 
 #email svg {
-    fill: #C72320;
+    fill: #c72320;
 }
 
-#linkedin svg{
-    fill: #0A63BC;
+#linkedin svg {
+    fill: #0a63bc;
 }
 
-#github svg{
+#github svg {
     fill: #000000;
 }
 
@@ -739,4 +741,28 @@ header p {
     border-radius: 15px;
     font-family: 'Charis SIL', serif;
     font-family: 'Oswald', sans-serif;
+}
+
+.swal2-shown.swal2-height-auto{
+    padding-right: 0px !important;
+}
+
+.swal2-show {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.swal2-success-circular-line-left,
+.swal2-success-circular-line-right,
+.swal2-success-fix {
+    background-color: var(--dark) !important;
+}
+
+.swal2-success-ring{
+    border: 0.25em solid var(--white) !important;
+}
+
+.swal2-confirm {
+    background-color: var(--aqua) !important;
+    color: var(--dark) !important;
 }
