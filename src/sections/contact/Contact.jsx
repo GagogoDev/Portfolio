@@ -55,27 +55,32 @@ export const Contact = () => {
         let data = {};
         setIsLoading(true);
 
-        // try {
-        //     const axiosConfig = {
-        //         url: '/email/sendEmail',
-        //         // baseURL: 'https://api-utilities.gabrielquirozdev.com/api',
-        //         baseURL: 'http://127.0.0.1:8000/api',
-        //         method: 'post',
-        //         headers: {
-        //             'Accept': 'application/json',
-        //             'Content-Type': 'application/json',
-        //             'Access-Control-Allow-Origin': '*',
-        //             'Access-Control-Allow-Headers': '*',
-        //             'X-Requested-With': 'XMLHttpRequest'
-        //         },
-        //         data: { nombre: name, correo: email, mensaje: message }
-        //     }
+        try {
+            const axiosConfig = {
+                url: '/email/sendEmailPortfolio',
+                baseURL: 'https://api-utilities.gabrielquirozdev.com/api',
+                // baseURL: 'http://127.0.0.1:8000/api',
+                method: 'post',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Headers': '*',
+                    'X-Requested-With': 'XMLHttpRequest',
+                },
+                data: { name, email, message }
+            }
 
-        //     data = await axios.request( axiosConfig );
-        // } catch (error) {}
-
-        onResetForm();
-        setIsLoading(false);
+            data = await axios.request( axiosConfig );
+        } catch (error) {
+            if ( parseInt( error.response.status ) == 429 ) {
+                fireSwalError( 'Demasiadas solicitudes, espere un tiempo' );
+                return false;
+            }
+        } finally {
+            onResetForm();
+            setIsLoading(false);
+        }
 
         if ( parseInt( data.status ) !== 200 ) {
             fireSwalError('');
