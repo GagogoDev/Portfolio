@@ -2,6 +2,10 @@ import { useState } from "react";
 import { ButtonSocialMedia } from './ButtonSocialMedia';
 import { contacts } from '../../data';
 import axios from "axios";
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal);
 
 const initialForm = {
     name: '',
@@ -10,14 +14,14 @@ const initialForm = {
 };
 
 const fireSwalSuccess = () => {
-    Swal.fire({
+    MySwal.fire({
         title: 'Mensaje enviado',
         icon: 'success',
     });
 }
 
 const fireSwalError = (error) => {
-    Swal.fire({
+    MySwal.fire({
         title: 'Ocurrió un error inesperado',
         text: error,
         icon: 'error',

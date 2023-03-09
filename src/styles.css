@@ -748,8 +748,8 @@ header p {
 }
 
 .swal2-show {
-    background-color: var(--dark);
-    color: var(--white);
+    background-color: var(--dark) !important;
+    color: var(--white) !important;
 }
 
 .swal2-success-circular-line-left,
