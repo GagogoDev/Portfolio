@@ -132,11 +132,7 @@ export const Contact = () => {
                 </form>
             </div>
             <div className="col-12 col-lg-1 mt-2 mt-lg-0 d-flex justify-content-center justify-content-lg-start align-items-center">
-                <div className="row d-flex justify-content-center justify-content-lg-start align-items-center">
-                    {
-                        contacts.map( contact => <ButtonSocialMedia key={ contact.id } data={ contact } /> )
-                    }
-                </div>
+                
             </div>
         </div>
     );

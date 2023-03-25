@@ -685,58 +685,6 @@ header p {
     margin: 0 0 0 auto;
 }
 
-.social-links {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.social-btn {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-    color: #333;
-    cursor: pointer;
-    font-family: 'Titillium Web', sans-serif;
-    height: 50px;
-    margin: 5px;
-    padding: 8px;
-    transition: 0.2s ease;
-    width: 50px;
-}
-
-.social-btn span {
-    margin: 0 0 0 auto;
-    overflow: hidden;
-    text-align: center;
-    width: 0px;
-}
-
-.social-btn:hover {
-    border-radius: 10px;
-    width: 15rem;
-}
-
-.social-btn:hover span {
-    padding: 2px;
-    width: max-content;
-}
-
-#whatsapp svg {
-    fill: #1bd741;
-}
-
-#email svg {
-    fill: #c72320;
-}
-
-#linkedin svg {
-    fill: #0a63bc;
-}
-
-#github svg {
-    fill: #000000;
-}
-
 .tooltip {
     border-radius: 15px;
     font-family: 'Charis SIL', serif;
