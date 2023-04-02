@@ -691,7 +691,7 @@ header p {
     font-family: 'Oswald', sans-serif;
 }
 
-.swal2-shown.swal2-height-auto{
+.swal2-shown.swal2-height-auto {
     padding-right: 0px !important;
 }
 
@@ -706,11 +706,61 @@ header p {
     background-color: var(--dark) !important;
 }
 
-.swal2-success-ring{
+.swal2-success-ring {
     border: 0.25em solid var(--white) !important;
 }
 
 .swal2-confirm {
     background-color: var(--aqua) !important;
     color: var(--dark) !important;
+}
+
+.a-social-media {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: 0.5s;
+    margin-top: 1.5rem !important;
+    margin: 0 -7px;
+}
+
+.a-social-media:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.a-social-media i {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size: 2rem;
+    color: #262626;
+    transition: 0.5s;
+}
+
+.a-social-media:hover .fa-whatsapp {
+    color: #1bd741;
+}
+
+.a-social-media:hover .fa-envelope {
+    color: #eb352b;
+}
+
+.a-social-media:hover .fa-linkedin {
+    color: #0a63bc;
+}
+
+.a-social-media:hover .fa-github {
+    color: #000000;
 }

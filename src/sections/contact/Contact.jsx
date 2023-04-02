@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { ButtonSocialMedia } from './ButtonSocialMedia';
 import { contacts } from '../../data';
 import axios from "axios";
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content'
+import { ContactItem } from "./ContactItem";
 
 const MySwal = withReactContent(Swal);
 
@@ -131,8 +131,12 @@ export const Contact = () => {
                     </button>
                 </form>
             </div>
-            <div className="col-12 col-lg-1 mt-2 mt-lg-0 d-flex justify-content-center justify-content-lg-start align-items-center">
-                
+            <div className="col-12 col-lg-1 mt-2 mt-lg-0">
+                <div className="row d-flex align-items-center">
+                    {
+                        contacts.map( contact => <ContactItem key={ contact.id } data={ contact } /> )
+                    }
+                </div>
             </div>
         </div>
     );
