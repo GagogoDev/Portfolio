@@ -36,7 +36,7 @@ export const Navbar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="section-contact" smooth={true} offset={0} duration={100} >
+                            <Link className="nav-link" to="section-contact" smooth={true} offset={-100} duration={100} >
                                 {t('Navbar.Contact')}
                             </Link>
                         </li>
