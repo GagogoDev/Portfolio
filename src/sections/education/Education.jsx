@@ -1,6 +1,8 @@
 import { useState } from "react";
+
 import { courses, titles } from "../../data";
 import { CardEducation } from "..";
+import "./Education.css";
 
 export const Education = () => {
     const [tab, setTab] = useState(true);

@@ -1,4 +1,5 @@
 import { experiences } from '../../data';
+import './Experience.css';
 
 export const Experience = () => {
     return (

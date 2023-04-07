@@ -1,6 +1,8 @@
 import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 
+import './Navbar.css';
+
 export const Navbar = () => {
     const { t } = useTranslation();
 

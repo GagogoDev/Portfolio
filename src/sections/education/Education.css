@@ -1,0 +1,122 @@
+.box-education {
+    border: 0.1rem solid var(--aqua);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button-education {
+    border: none;
+    background-color: inherit;
+    color: var(--white);
+    cursor: pointer;
+    display: inline-block;
+    height: 3rem;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.button-education::before {
+    background-color: var(--aqua);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateX(-101%);
+    transition: all 0.3s;
+    width: 100%;
+    z-index: -1;
+}
+
+.button-education:hover::before {
+    transform: translateX(0);
+}
+
+.button-education-first.active {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 255, 255, 1) 0%,
+        rgba(10, 25, 47, 1) 100%
+    );
+}
+
+.button-education-last::before {
+    background-color: var(--aqua);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateX(100%);
+    transition: all 0.3s;
+    width: 100%;
+    z-index: -1;
+}
+
+.button-education-last:hover::before {
+    transform: translateX(0);
+}
+
+.button-education-last.active {
+    background: linear-gradient(
+        90deg,
+        rgba(10, 25, 47, 1) 0%,
+        rgba(0, 255, 255, 1) 100%
+    );
+}
+
+.border-education {
+    border-bottom: 0.1rem solid var(--aqua);
+    height: 100%;
+}
+
+.parent-cards {
+    max-height: 25rem;
+    overflow-y: auto;
+}
+
+.parent-cards::-webkit-scrollbar {
+    width: 7px;
+}
+
+.parent-cards::-webkit-scrollbar-thumb {
+    background-color: var(--aqua);
+    border-radius: 5px;
+}
+
+.card-education {
+    border-radius: 20px;
+    border: 0.1rem solid var(--aqua);
+    height: 11rem;
+    width: 20rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 30px 7px rgba(255, 255, 255, 0.05),
+        -5px -5px 30px 7px rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-education:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 5px 30px 15px rgba(255, 255, 255, 0.1),
+        -5px -5px 30px 15px rgba(255, 255, 255, 0.1);
+}
+
+.title-card-education {
+    font-size: 1.3rem;
+}
+
+.subtitle-card-education {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: auto !important;
+}
+
+.date-card-education {
+    font-size: 0.9rem;
+    font-weight: 600;
+}

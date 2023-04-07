@@ -1,8 +1,8 @@
-// import data SwipperSlide
-import { technologies } from '../../data';
-
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+
+import './Technologies.css';
+import { technologies } from '../../data';
 
 const handleDragStart = (e) => e.preventDefault();
 

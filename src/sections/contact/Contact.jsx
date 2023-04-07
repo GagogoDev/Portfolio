@@ -1,9 +1,12 @@
 import { useState } from "react";
-import { contacts } from '../../data';
-import axios from "axios";
-import Swal from 'sweetalert2';
+
 import withReactContent from 'sweetalert2-react-content'
+import Swal from 'sweetalert2';
+import axios from "axios";
+
+import './Contact.css';
 import { ContactItem } from "./ContactItem";
+import { contacts } from '../../data';
 
 const MySwal = withReactContent(Swal);
 

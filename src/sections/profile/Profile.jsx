@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import './Profile.css';
+
 export const Profile = () => {
     const [ language, setLanguage ] = useState( true );
     const { t, i18n } = useTranslation();

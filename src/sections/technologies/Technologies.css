@@ -1,0 +1,29 @@
+.carousel-item-img {
+    margin: 0 auto 1rem auto;
+    width: 8rem !important;
+}
+
+.carousel-item-p {
+    font-size: 2rem;
+}
+
+.alice-carousel__wrapper {
+    cursor: pointer;
+}
+
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item {
+    font-size: 3rem !important;
+    color: var(--aqua);
+}
+
+.alice-carousel__prev-btn-item:hover,
+.alice-carousel__next-btn-item:hover {
+    color: var(--aqua);
+    transform: scale(105%);
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+    padding: 0rem 0rem 0rem 0rem !important;
+}
