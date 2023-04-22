@@ -1,6 +1,6 @@
 import {
     Contact,
-    Education,
+    Courses,
     Experience,
     Navbar,
     Profile,
@@ -20,8 +20,8 @@ export const Portfolio = () => {
                 <Section title={'Experiencia'} id="experience">
                     <Experience />
                 </Section>
-                <Section title={'Educación'} id="education" colLg={8}>
-                    <Education />
+                <Section title={'Educación'} id="courses" colLg={8}>
+                    <Courses />
                 </Section>
                 <Section title={'Contacto'} id="contact">
                     <Contact />

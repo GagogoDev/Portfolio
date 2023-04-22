@@ -11,6 +11,18 @@ const desorderCourses = [
         institution: 'Udemy',
         date: '2022-09-08',
     },
+    {
+        id: 3,
+        title: 'Domina Laravel y Crea Aplicaciones de Alto Nivel con Laravel',
+        institution: 'Udemy',
+        date: '2022-09-08',
+    },
+    {
+        id: 4,
+        title: 'Domina Laravel y Crea Aplicaciones de Alto Nivel con Laravel',
+        institution: 'Udemy',
+        date: '2022-09-08',
+    },
 ];
 
 export const courses = desorderCourses.sort(function (a, b) {

@@ -33,8 +33,8 @@ export const Navbar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-effect" to="section-education" smooth={true} offset={-200} duration={100} >
-                                {t('Navbar.Education')}
+                            <Link className="nav-link text-effect" to="section-courses" smooth={true} offset={-200} duration={100} >
+                                {t('Navbar.Courses')}
                             </Link>
                         </li>
                         <li className="nav-item">
