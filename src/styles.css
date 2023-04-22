@@ -39,3 +39,18 @@ body::-webkit-scrollbar-thumb {
 .h1-section {
     font-size: 3rem;
 }
+
+.text-effect {
+    background-image: linear-gradient(to left, var(--white), var(--white) 50%, var(--aqua) 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    display: inline-block;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-effect:hover {
+    background-position: 0;
+}

@@ -37,8 +37,3 @@
     font-size: 1.9rem;
     font-weight: 700;
 }
-
-.nav-link.active,
-.nav-link:hover {
-    color: var(--aqua) !important;
-}
