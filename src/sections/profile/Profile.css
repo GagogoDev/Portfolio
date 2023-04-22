@@ -78,13 +78,3 @@
         font-size: 1.5rem !important;
     }
 }
-
-.profile-button:hover,
-.profile-button:active {
-    background-color: var(--dark) !important;
-    color: var(--aqua) !important;
-}
-
-.profile-button:hover {
-    transform: scale(101%);
-}

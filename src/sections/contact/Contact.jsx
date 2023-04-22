@@ -129,7 +129,7 @@ export const Contact = () => {
                         <label className="mb-1" htmlFor="message">Mensaje</label><br />
                         <textarea className='form-control w-100' name="message" rows="5" minLength={5} value={message} placeholder="Ingrese mensaje" required onChange={onFormChange} ></textarea>
                     </div>
-                    <button type="submit" className="btn btn-outline-primary d-flex text-light mt-3 contact-button">
+                    <button type="submit" className="btn btn-outline-primary d-flex text-light mt-3 contact-button text-effect">
                         { textButtonSubmit }
                     </button>
                 </form>

@@ -34,11 +34,11 @@ export const Profile = () => {
                         dolor nisi nostrud pariatur minim esse sit veniam.
                     </p>
                 </div>
-                <div className="col-12 d-flex justify-content-center">
-                    <button className="btn btn-outline-primary profile-button">
+                <div className="col-12 d-flex justify-content-center mt-5">
+                    <button className="btn btn-outline-primary profile-button text-effect">
                         {t('Navbar.Download CV')}
                     </button>
-                    <button className="btn btn-outline-primary profile-button" onClick={onSwitchLanguage}>
+                    <button className="btn btn-outline-primary profile-button text-effect" onClick={onSwitchLanguage}>
                         {t('Navbar.Language')}
                     </button>
                 </div>
