@@ -7,6 +7,5 @@ export const ContactItem = ( { data } ) => {
                 <i className={iconClass} aria-hidden="true"></i>
             </a>
         </div>
-            
     );
 };

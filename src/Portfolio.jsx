@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 import {
     Contact,
     Courses,
@@ -9,21 +11,23 @@ import {
 } from './sections';
 
 export const Portfolio = () => {
+    const { t } = useTranslation();
+
     return (
         <>
             <Navbar />
             <div className="container-fluid">
                 <Profile />
-                <Section title={'Tecnologías'} id="technologies">
+                <Section title={t('Navbar.Technologies')} id="technologies">
                     <Technologies />
                 </Section>
-                <Section title={'Experiencia'} id="experience">
+                <Section title={t('Navbar.Experience')} id="experience">
                     <Experience />
                 </Section>
-                <Section title={'Educación'} id="courses" colLg={8}>
+                <Section title={t('Navbar.Courses')} id="courses" colLg={8}>
                     <Courses />
                 </Section>
-                <Section title={'Contacto'} id="contact">
+                <Section title={t('Navbar.Contact')} id="contact">
                     <Contact />
                 </Section>
             </div>

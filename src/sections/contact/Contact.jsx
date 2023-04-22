@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { useTranslation } from 'react-i18next';
+
 import withReactContent from 'sweetalert2-react-content'
 import Swal from 'sweetalert2';
 import axios from "axios";
@@ -32,6 +34,8 @@ const fireSwalError = (error) => {
 }
 
 export const Contact = () => {
+    const { t } = useTranslation();
+
     const [isLoading, setIsLoading] = useState(false);
     const [formState, setFormState] = useState(initialForm);
 
@@ -110,7 +114,7 @@ export const Contact = () => {
             <span className="sr-only"></span>
         </div>
         :
-        'Enviar'
+        t('Form.Send')
     ;
 
     return (
@@ -118,16 +122,16 @@ export const Contact = () => {
             <div className="col-12 col-lg-6 offset-lg-1">
                 <form className="border border-primary rounded p-3" onSubmit={ (e) => onSubmitForm(e) } >
                     <div className="form-group mb-2">
-                        <label className="mb-1" htmlFor="name">Nombre</label>
-                        <input type="text" className="form-control" name="name" minLength={5} value={name} placeholder="Ingrese nombre" required onChange={onFormChange} />
+                        <label className="mb-1" htmlFor="name">{t('Form.Name')}</label>
+                        <input type="text" className="form-control" name="name" minLength={5} value={name} placeholder={t('Form.Enter name')} required onChange={onFormChange} />
                     </div>
                     <div className="form-group mb-2">
-                        <label className="mb-1" htmlFor="email">Email</label>
-                        <input type="email" className="form-control" name="email" minLength={5} value={email} placeholder="Ingrese email" required onChange={onFormChange} />
+                        <label className="mb-1" htmlFor="email">{t('Form.Email')}</label>
+                        <input type="email" className="form-control" name="email" minLength={5} value={email} placeholder={t('Form.Enter email')} required onChange={onFormChange} />
                     </div>
                     <div className="form-group mb-2">
-                        <label className="mb-1" htmlFor="message">Mensaje</label><br />
-                        <textarea className='form-control w-100' name="message" rows="5" minLength={5} value={message} placeholder="Ingrese mensaje" required onChange={onFormChange} ></textarea>
+                        <label className="mb-1" htmlFor="message">{t('Form.Message')}</label><br />
+                        <textarea className='form-control w-100' name="message" rows="5" minLength={5} value={message} placeholder={t('Form.Enter message')} required onChange={onFormChange} ></textarea>
                     </div>
                     <button type="submit" className="btn btn-outline-primary d-flex text-light mt-3 contact-button text-effect">
                         { textButtonSubmit }
