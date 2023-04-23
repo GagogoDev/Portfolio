@@ -10,14 +10,14 @@ export const technologies = [
         color: '#5E3B7F',
     },
     {
-        name: 'HTML5',
-        srcImage: '/images/html5.png',
-        color: '#DD512A',
+        name: 'Laravel',
+        srcImage: '/images/laravel.png',
+        color: '#F71A0F',
     },
     {
-        name: 'CSS',
-        srcImage: '/images/css3.png',
-        color: '#2196F3',
+        name: 'MySQL',
+        srcImage: '/images/mysql.png',
+        color: '#00618A',
     },
     {
         name: 'CodeIgniter',

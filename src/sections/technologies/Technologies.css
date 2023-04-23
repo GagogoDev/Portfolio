@@ -1,6 +1,7 @@
 .carousel-item-img {
     margin: 0 auto 1rem auto;
     width: 8rem !important;
+    max-height: 8rem !important;
 }
 
 .carousel-item-p {
