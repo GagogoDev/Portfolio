@@ -1,7 +1,27 @@
-import { experiences } from '../../data';
+import { useState, useEffect } from 'react';
+
+import { useTranslation } from 'react-i18next';
+
+import { experiencesEs, experiencesEn } from '../../data';
 import './Experience.css';
 
 export const Experience = () => {
+    const [ experiences, setExperiences ] = useState( experiencesEs )
+    const { i18n } = useTranslation();
+
+    useEffect(() => {
+        switch (i18n.language) {
+            case 'es':
+                setExperiences( experiencesEs );
+                break;
+            case 'en':
+                setExperiences( experiencesEn );
+                break;
+            default:
+                break;
+        }
+    }, [ i18n.language ]);
+
     return (
         <ul className="timeline">
             {experiences.map(({ id, direction, title, date, description }) => (

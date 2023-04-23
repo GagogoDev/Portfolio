@@ -21,8 +21,7 @@ export const Courses = () => {
             default:
                 break;
         }
-    }, [ i18n.language ])
-    
+    }, [ i18n.language ]);
 
     return (
         <div className="box-courses">
