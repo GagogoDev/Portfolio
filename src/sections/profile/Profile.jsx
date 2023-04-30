@@ -30,9 +30,9 @@ export const Profile = () => {
                     <p className="description-profile d-block">{t('Profile.Description')}</p>
                 </div>
                 <div className="col-12 d-flex justify-content-center mt-5">
-                    <button className="btn btn-outline-primary profile-button text-effect">
+                    <a className="btn btn-outline-primary profile-button text-effect" href="/files/CurriculumVitae.pdf" download>
                         {t('Navbar.Download CV')}
-                    </button>
+                    </a>
                     <button className="btn btn-outline-primary profile-button text-effect" onClick={onSwitchLanguage}>
                         {t('Navbar.Language')}
                     </button>

@@ -72,7 +72,7 @@ const myCoursesEn = [
         id: 6,
         title: 'React: From zero to expert (Hooks and MERN)',
         institution: 'Udemy - 54 Hours',
-        date: 'En curso',
+        date: 'In progress',
     },
 ];
 
