@@ -1,7 +1,7 @@
 const myExperiencesEs = [
     {
         id: 1,
-        direction: 'l',
+        direction: 'r',
         title: 'Sodexo',
         date: '2021 Sep - 2021 Nov',
         description: `
@@ -10,12 +10,20 @@ const myExperiencesEs = [
     },
     {
         id: 2,
+        direction: 'l',
+        title: 'Impact',
+        date: '2022 Ene - 2023 Abr',
+        description: `
+            Programador JR full stack
+        `,
+    },
+    {
+        id: 3,
         direction: 'r',
         title: 'Impact',
-        date: '2022 Ene - Actualidad',
+        date: '2022 May - Actualidad',
         description: `
-            En el cargo de programador JR full stack
-            utilizando Jquery y CodeIgniter 3 como herramientas principales y uso de metodologías ágiles
+            Supervisor de software
         `,
     },
 ];
@@ -23,20 +31,29 @@ const myExperiencesEs = [
 const myExperiencesEn = [
     {
         id: 1,
-        direction: 'l',
+        direction: 'r',
         title: 'Sodexo',
         date: '2021 Sep - 2021 Nov',
         description: `
-
+            University practice
         `,
     },
     {
         id: 2,
+        direction: 'l',
+        title: 'Impact',
+        date: '2022 Jan - 2023 Apr',
+        description: `
+            Full stack developer
+        `,
+    },
+    {
+        id: 3,
         direction: 'r',
         title: 'Impact',
-        date: '2022 Jan - Actuality',
+        date: '2022 May - Actuality',
         description: `
-            
+            Software supervisor
         `,
     },
 ];
